@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Concentration</string>
+    <string name="creditTitle">Credits:</string>
+    <string name="names">Tomik Aghajanian\nChristian Munoz\nEmanuel Juarez\nDavid Chang\nFabian Flores</string>
+    <string name="ids">#011353849\n#010817014\n#009631258\n#009074689\n#010913838</string>
+    <string name="back">Back</string>
+    <string name="className">CS 245</string>
+    <string name="groupName">by Diaz Disciples</string>
+    <string name="play">Play</string>
+    <string name="highScores">High Scores</string>
+    <string name="credits">Credits</string>
+    <string name="playTitle">Choose Game Mode:</string>
+    <string name="highScoresTitle">High Scores:</string>
+    <string name="score">Score:</string>
+    <string name="tryAgain">Try Again</string>
+    <string name="newGame">New Game</string>
+    <string name="endGame">End Game</string>
+
+
+
+
+</resources>
