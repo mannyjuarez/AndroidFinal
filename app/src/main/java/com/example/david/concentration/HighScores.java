@@ -13,9 +13,6 @@ import android.widget.Button;
  */
 
 public class HighScores extends android.support.v4.app.Fragment {
-    private static final String TAG_MY_FRAGMENT = "myFragment";
-
-    private Fragment mFragment;
     public static HighScores newInstance() { return new HighScores();}
 
     @Override

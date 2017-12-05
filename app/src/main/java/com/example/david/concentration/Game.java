@@ -24,7 +24,7 @@ public class Game extends android.support.v4.app.Fragment {
 
     //Get game difficulty
     private int difficulty;
-    private int counterForWinner = 0;
+    private int counterForWinner;
     public static Game newInstance(int difficulty) {
         Game fragment = new Game();
         fragment.difficulty = difficulty;
@@ -33,6 +33,8 @@ public class Game extends android.support.v4.app.Fragment {
 
     //Score
     TextView textView;
+
+    TextView youWon;
 
     //Cards
     //  Card resource ID's are the id's of the ImageView widgets in the xml files
@@ -71,13 +73,15 @@ public class Game extends android.support.v4.app.Fragment {
 
         //get the correct resource layout from the layoutResourceID's array by using difficulty to calculate the index.
         int gameLayoutIndex = (difficulty / 2) - 2;
-
+        counterForWinner = 0;
         //inflate the layout
         View v;
         v = inflater.inflate(layoutResourceIDs[gameLayoutIndex], container, false);
 
         //Set the score
         textView = (TextView) v.findViewById(R.id.textView);
+
+        youWon = (TextView)v.findViewById(R.id.YouWon);
         textView.setText("Score: " + Integer.toString(score));
 
         //Fill up the cardArray with ImageView widgets from the layout and give those imageViews a tag.
@@ -149,7 +153,7 @@ public class Game extends android.support.v4.app.Fragment {
 
         //Check if game is over
         if(isGameOver()){
-            TextView youWon = (TextView)textView.findViewById(R.id.YouWon);
+
             youWon.setText("YOU WON!!!");
         }
     }
