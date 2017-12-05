@@ -13,18 +13,30 @@ import android.widget.TextView;
 
 import java.util.Arrays;
 import java.util.Collections;
+import android.media.*;
 
 public class MainActivity extends AppCompatActivity {
 
+    static MediaPlayer mp = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if (mp == null) {
+            initializeMP();
+        }
         setContentView(R.layout.activity_main);
 
         getSupportFragmentManager()
                 .beginTransaction()
                 .replace(R.id.main_container, Home.newInstance())
                 .commit();
+    }
+
+    public void initializeMP()
+    {
+        mp = MediaPlayer.create(MainActivity.this,R.raw.krtd);
+        mp.start();
+        mp.setLooping(true);
     }
 
     /*

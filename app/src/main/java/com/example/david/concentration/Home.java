@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.media.*;
 
 /**
  * Created by David on 12/2/2017.
@@ -19,6 +20,7 @@ public class Home extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
     }
 
     @Override
@@ -61,6 +63,20 @@ public class Home extends Fragment {
                         .replace(R.id.main_container, Credits.newInstance())
                         .addToBackStack(null)
                         .commit();
+            }
+        });
+
+        ((Button)getActivity().findViewById(R.id.button4)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (MainActivity.mp.isPlaying())
+                {
+                    MainActivity.mp.pause();
+                }
+                else
+                {
+                    MainActivity.mp.start();
+                }
             }
         });
     }

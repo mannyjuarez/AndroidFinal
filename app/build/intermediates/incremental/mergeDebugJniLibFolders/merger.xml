@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Tomik\Desktop\cpp courses\GUI\Android\Concentration\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\Tomik\Desktop\cpp courses\GUI\Android\Concentration\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/mannyjuarez/Documents/GitHub/AndroidFinal/AndroidFinal/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/mannyjuarez/Documents/GitHub/AndroidFinal/AndroidFinal/app/src/debug/jniLibs"/></dataSet></merger>

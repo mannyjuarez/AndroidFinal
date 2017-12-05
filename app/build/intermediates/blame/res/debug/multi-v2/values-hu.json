@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Tomik\\Desktop\\cpp courses\\GUI\\Android\\Concentration\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
+            "outputFile": "/Users/mannyjuarez/Documents/GitHub/AndroidFinal/AndroidFinal/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Tomik\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\16aa80d42787bbfbc8ff6b6f6b281302\\res\\values-hu\\values-hu.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,213,318,433,517,629,759,835,911,994,1104,1215,1315,1426,1534,1653,1835,1938",
-                        "endColumns": "107,104,114,83,111,129,75,75,82,109,110,99,110,107,118,181,102,82",
-                        "endOffsets": "208,313,428,512,624,754,830,906,989,1099,1210,1310,1421,1529,1648,1830,1933,2016"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Tomik\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.0.aar\\71f2110df822d3fb4478147c3036f217\\res\\values-hu\\values-hu.xml",
+                    "source": "/Users/mannyjuarez/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/7bdf12a29d5bd7e9aa71ca26c6c68c96/res/values-hu/values-hu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "2021",
                         "endColumns": "100",
                         "endOffsets": "2117"
+                    }
+                },
+                {
+                    "source": "/Users/mannyjuarez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/9d7d523a3e499fd45e513bb3f762e54b/res/values-hu/values-hu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,318,433,517,629,759,835,911,994,1104,1215,1315,1426,1534,1653,1835,1938",
+                        "endColumns": "107,104,114,83,111,129,75,75,82,109,110,99,110,107,118,181,102,82",
+                        "endOffsets": "208,313,428,512,624,754,830,906,989,1099,1210,1310,1421,1529,1648,1830,1933,2016"
                     }
                 }
             ]
