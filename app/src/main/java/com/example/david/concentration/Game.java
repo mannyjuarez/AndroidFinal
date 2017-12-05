@@ -1,5 +1,6 @@
 package com.example.david.concentration;
 
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.LayoutInflater;
@@ -25,6 +26,7 @@ public class Game extends android.support.v4.app.Fragment {
     //Get game difficulty
     private int difficulty;
     private int counterForWinner;
+
     public static Game newInstance(int difficulty) {
         Game fragment = new Game();
         fragment.difficulty = difficulty;
@@ -81,7 +83,7 @@ public class Game extends android.support.v4.app.Fragment {
         //Set the score
         textView = (TextView) v.findViewById(R.id.textView);
 
-        youWon = (TextView)v.findViewById(R.id.YouWon);
+        youWon = (TextView) v.findViewById(R.id.YouWon);
         textView.setText("Score: " + Integer.toString(score));
 
         //Fill up the cardArray with ImageView widgets from the layout and give those imageViews a tag.
@@ -152,14 +154,15 @@ public class Game extends android.support.v4.app.Fragment {
         textView.setText("Score: " + Integer.toString(score));
 
         //Check if game is over
-        if(isGameOver()){
+        if (isGameOver()) {
 
             youWon.setText("YOU WON!!!");
+            counterForWinner = 0;
         }
     }
 
     private boolean isGameOver() {
-        if(counterForWinner==(difficulty/2)){
+        if (counterForWinner == (difficulty / 2)) {
             return true;
         }
         return false;

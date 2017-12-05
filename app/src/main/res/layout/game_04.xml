@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:id="@+id/scrollView"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fillViewport="true"
-    xmlns:android="http://schemas.android.com/apk/res/android">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:weightSum="100"
     android:orientation="vertical"
@@ -143,4 +138,3 @@
     </LinearLayout>
 
 </LinearLayout>
-</ScrollView>
