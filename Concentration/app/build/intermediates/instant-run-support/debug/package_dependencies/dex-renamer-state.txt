@@ -1,0 +1,4 @@
+#Mon Dec 04 21:26:45 PST 2017
+base.0=/Users/mannyjuarez/Downloads/Concentration/app/build/intermediates/transforms/dexMerger/debug/11
+renamed.0=classes.dex
+file.0=/Users/mannyjuarez/Downloads/Concentration/app/build/intermediates/transforms/dexMerger/debug/11/classes.dex
