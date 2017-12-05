@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="100"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/tryAgain" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/card_0"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:padding="1dp"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/card_1"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:padding="1dp"
+            android:src="@drawable/back" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/card_2"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:padding="1dp"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/card_3"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:padding="1dp"
+            android:src="@drawable/back" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newGame"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/endGame"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+    </LinearLayout>
+
+</LinearLayout>
